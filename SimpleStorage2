@@ -1,0 +1,27 @@
+//SPDX-License-Identifier: MIT
+pragma solidity 0.8.19;
+//stating version of solidity as the language is rapidly changing
+// ^ means 0.8.18 and abov will work
+//without ^0.8.18 it means only work with 0.8.18
+//>=0.8.18 <0.9.0 here versions outdie this range wont work
+
+contract SimpleStorage2{
+    // Basic data types: uint, boolean, int, address, bytes
+    //uint means unsigned integer
+    bool hasFavoriteNumber=true;
+    //unit and int can be written as uint8/uint16/...16bits
+    //max and default is 256
+    uint256 favNum=88;
+    string favnumber="eighty-eight";
+    int256 favInt=-89;
+    address myAddress=0x742d35Cc6634C0532925a3b844Bc454e4438f44e;
+    bytes32 favoriteByes32="cat";
+    //max bytes is 32, and bytes and bytes32 is diff unlike
+    //unit and unit256
+
+    uint256 def;
+    //default value of variable of type unit=0
+    //similarily diff for diff datatypes
+
+
+}
