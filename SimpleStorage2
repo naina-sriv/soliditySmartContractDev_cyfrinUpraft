@@ -21,7 +21,7 @@ contract SimpleStorage2{
 
     uint256 def;
     //default value of variable of type unit=0
-    //similarily diff for diff datatypes
+    //similarily diff for different datatypes
 
 
 }
