@@ -6,7 +6,7 @@ contract FuncTest{
     //decoded input	{
 	//"uint256 _x": "98"}
     
-    //ensure parameter is diff then x
+    //ensure parameter is different then x
     function store(uint256 _x) public {
         x = _x;
     }
