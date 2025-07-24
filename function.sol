@@ -13,7 +13,7 @@ contract FuncTest{
 }
 //use remix vm which is a fake local blockchain
 //no wait
-//fake img accounts with diff values 
+//fake imaginary accounts with diff values 
 
 //0xd9145CCE52D386f254917e481eB44e9943F39138
 //contract address
